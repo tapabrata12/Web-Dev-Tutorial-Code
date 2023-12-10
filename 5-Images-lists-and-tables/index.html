@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- I am creating css file only for understanding purpose later we will see css in depth  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Images lists and tables</title>
+</head>
+
+<body>
+    <!-- img tag is mainly used for pasteing a image in img three attribute is also avalable alt =""
+    width ="" and heght ="" -->
+    <h1>Image Tag and it's attribute</h1>
+    <img src="Webdev.png" alt="Webdev Picture"> <br>
+    <img src="Webdev.png" width="200" alt="Webdev Picture"> <br> <!--Width attribute-->
+    <img src="Webdev.png" height="200" alt="Webdev Picture"> <br> <!--Height attribute-->
+    <img src="Webdev.png" width="200" height="200" alt="Webdev Picture"> <!--Width and Height attribute-->
+    <a href="https://www.w3schools.com/tags/tag_img.asp">Click here to know more</a>
+    <hr>
+    <h1>Table tag</h1>
+    To know about table <a href="https://www.codewithharry.com/tutorial/html-tables/">click here</a>
+
+    <!-- here I want to say about br tag it gives line brke  -->
+    <br>
+    <table>
+
+        <thead>
+            <caption>Employ details</caption>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>Tapabrata</td>
+                <td>20</td>
+                <td>Male</td>
+            </tr>
+
+            <!-- rowspan and colspan Attributes Rowspan: If you want a table cell to span multiple rows, you can use the rowspan attribute. Colspan: If you want a table cell to span multiple columns, you can use the colspan attribute. -->
+            <tr>
+                <td colspan="2">Yadav</td>
+                <td>30</td>
+                <td rowspan="10">Male</td>
+            </tr>
+            <tr>
+                <td colspan="2">Rati</td>
+                <td>30</td>
+                <td rowspan="2">Female</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Ram</td>
+                <td>25</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Sam</td>
+                <td>10</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Madav</td>
+                <td>30</td>
+                <td>Male</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- <hr> is selfclosing tag gives an horizontal line -->
+    <hr>
+    <h1>List tag</h1>
+    <h3>Before going to the code learn about lists by <a
+            href="https://www.codewithharry.com/tutorial/html-lists/">reading this</a></h3>
+
+
+    <h4>Unordered list</h4>
+    <ul>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ul>
+    <!-- We also customised the points via type attribute circle is set as default-->
+    <ul type="square" >
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ul>
+    <ul type="circle" >
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ul>
+    <h4>Ordered list</h4>
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ol>
+    <!-- We also customised the number via type attribute number is set as default-->
+    <ol type="A">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ol>
+    <ol type="a">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ol>
+    <ol type="I">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ol>
+    <ol type="i">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Graphes</li>
+        <li>Dregon fruit</li>
+    </ol>
+</body>
+
+</html>
